@@ -59,5 +59,5 @@ def on_release(key):
         pass
 
 with keyboard.Listener(on_press=on_press, on_release=on_release) as listener:
-    print("Программа запущена. Используйте клавиши I, J, L для эмуляции.")
+    print("The program is running. Use the I J L to emulate the keys.")
     listener.join()
